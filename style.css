@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#drawing {
+  background-image: url(/Frame1.svg);
+  background-repeat: no-repeat;
+  background-size: 104rem auto;
+
+  height: 46rem;
+  max-width: 1860px;
+  background-position: center;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8.6rem;
+}
+
+#buttons {
+  height: 4rem;
+  width: 70rem;
+  position: relative;
+}
+
+#rectangle {
+  background-color: red;
+  width: 70rem;
+  height: 26rem;
+  position: relative;
+}
+
+.button {
+  background-color: white;
+  /*   border: none; */
+  color: #2c6c94;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0rem 4.6rem;
+  transition-duration: 0.4s;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 500;
+  border: 2px solid white;
+}
+
+.send {
+  cursor: pointer;
+  /* background-color: #e33939;
+  color: white; */
+  border: 2px solid #e33939;
+  background-color: white;
+  color: #e33939;
+}
+
+.send:hover {
+  /* background-color: white;
+  color: #e33939; */
+  background-color: #e33939;
+  color: white;
+}
+
+.send-inactive {
+  border: 2px solid #e33939;
+  background-color: white;
+  color: #e33939;
+}
+
+.receive {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #drawing {
+    width: 70rem;
+    /* height: 26rem; */
+  }
+  #rectangle {
+    background-color: lightblue;
+    width: 70rem;
+    height: 26rem;
+  }
+}
