@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+:root {
+  --my-red: #e33939;
+  --white: #ffffff;
+  --my-gray: rgb(190, 190, 190);
+}
+
 #drawing {
   background-image: url(/Frame1.svg);
   background-repeat: no-repeat;
@@ -55,22 +61,22 @@
   cursor: pointer;
   /* background-color: #e33939;
   color: white; */
-  border: 2px solid #e33939;
+  border: 2px solid var(--my-red);
   background-color: white;
-  color: #e33939;
+  color: var(--my-red);
 }
 
 .send:hover {
   /* background-color: white;
   color: #e33939; */
-  background-color: #e33939;
+  background-color: var(--my-red);
   color: white;
 }
 
 .send-inactive {
-  border: 2px solid #e33939;
+  border: 2px solid var(--my-red);
   background-color: white;
-  color: #e33939;
+  color: var(--my-red);
 }
 
 .receive {
@@ -88,7 +94,35 @@
   margin-bottom: 0.8rem;
   background: #242424;
   /* background: red; */
-  box-shadow: inset 0px 8.4rem 0.8rem -3rem rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0px 8.4rem 0.3rem -3rem rgba(0, 0, 0, 0.8);
+}
+
+.door {
+  background-color: var(--my-red);
+  position: absolute;
+  top: -0.1rem;
+  left: -0.1rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 0.3rem;
+
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
+  text-align: right;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 300;
+  border: 1px solid var(--my-gray);
+
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+
+.doorOpen {
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px)
+    rotateY(-115deg);
 }
 
 /* GRID */
