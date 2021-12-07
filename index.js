@@ -26,4 +26,90 @@ function myFunction() {
   }
 }
 
+$(document).ready(function(){
 
+  function calculator(){
+    var info = "Ustal PIN: ";
+    var sum = "";
+    var len;
+    var pin = [];
+    //var arr= [];
+    var operators = ["+", "-", "*", "/"];
+    var inputVal = document.getElementById("screen");
+
+    $(".buttons .digit").on('click', function() {
+      var num = $(this).attr('value');
+      sum += num;
+      //arr.push(num);
+    //   $("#screen").html(info + sum);
+    len = inputVal.innerHTML.split("");
+    console.log(len);
+    // pin.push(num)
+    console.log(pin.length)
+    //console.log(arr);
+    if (pin.length == 4) {
+        //pass
+    } else {
+        pin.push(num)
+        $("#screen").html(info + pinScreen(pin))
+    }
+    console.log(pin)
+    console.log(pinScreen(pin))
+
+    });
+    // $(".buttons .operator").on('click', function(e) {
+    //   e.preventDefault();
+    //   var ops = $(this).attr('value');
+    //   sum += ops;
+    //   //arr.push(num);
+    //   $("#screen").html(sum);
+    //    len = inputVal.innerHTML;
+    //   if(/(?=(\D{2}))/g.test(sum)) {
+    //     sum = len.substring(0, len.length - 1);
+    //     $("#screen").html(sum);
+    //   }
+    //   //len = inputVal.innerHTML.split("");
+    //     //console.log(len);
+        
+    //   //console.log(arr);
+
+    // });
+
+
+    $("#equal").on('click', function() {
+        var total =  eval(sum);
+        //$("#screen").attr('value', total);
+        // $("#screen").html(total % 1 != 0 ? total.toFixed(2) : total);
+        pin.pop()
+        console.log(pin)
+        currentScreen = document.getElementById("screen").innerHTML;
+        // $("#screen").html(info + pin);
+        $("#screen").html(info + pinScreen(pin))
+    });
+
+    $("#clear").on('click', function() {
+        sum = "";
+        arr = [];
+        pin = [];
+        $("#screen").html(info + "****");
+    });
+
+    };
+          calculator();
+});
+
+function pinScreen(pin) {
+    pinString = pin.join("");
+    if (pin.length == 1) {
+        pinString += "***";
+    } else if (pin.length == 2) {
+        pinString += "**";
+    } else if (pin.length == 3) {
+        pinString += "*";
+    } else if (pin.length == 4) {
+        //pass
+    } else {
+        pinString += "****";
+    }
+  return pinString;
+}
