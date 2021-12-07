@@ -26,7 +26,7 @@
 }
 
 #rectangle {
-  background-color: red;
+  /* background-color: red; */
   width: 70rem;
   height: 26rem;
   position: relative;
@@ -75,6 +75,110 @@
 
 .receive {
   display: none;
+}
+
+/* RECTANGLE */
+
+.opening {
+  /* background-color: #232323; */
+  height: 7.8rem;
+  width: 7.8rem;
+  position: relative;
+  margin: 0.2rem auto;
+  margin-bottom: 0.8rem;
+  background: #242424;
+  /* background: red; */
+  box-shadow: inset 0px 8.4rem 0.8rem -3rem rgba(0, 0, 0, 0.8);
+}
+
+/* GRID */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "box11 box12 box13 panel panel box14 box15 box16"
+    "box21 box22 box23 panel panel box24 box25 box26"
+    "box31 box32 box33 panel panel box34 box35 box36";
+}
+
+.box11 {
+  grid-area: box11;
+}
+
+.box12 {
+  grid-area: box12;
+}
+
+.box13 {
+  grid-area: box13;
+}
+
+.panel {
+  grid-area: panel;
+}
+
+.box14 {
+  grid-area: box14;
+}
+
+.box15 {
+  grid-area: box15;
+}
+
+.box16 {
+  grid-area: box16;
+}
+
+.box21 {
+  grid-area: box21;
+}
+
+.box22 {
+  grid-area: box22;
+}
+
+.box23 {
+  grid-area: box23;
+}
+
+.box24 {
+  grid-area: box24;
+}
+
+.box25 {
+  grid-area: box25;
+}
+
+.box26 {
+  grid-area: box26;
+}
+
+.box32 {
+  grid-area: box32;
+}
+
+.box31 {
+  grid-area: box31;
+}
+
+.box33 {
+  grid-area: box33;
+}
+
+.box34 {
+  grid-area: box34;
+}
+
+.box35 {
+  grid-area: box35;
+}
+
+.box36 {
+  grid-area: box36;
 }
 
 @media only screen and (max-width: 1000px) {
