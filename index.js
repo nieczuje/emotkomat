@@ -6,14 +6,21 @@
 //   element.classList.toggle("doorOpen");
 // }
 
+var boxNo = undefined;
+var pin = [];
+
 function toggleDoor() {
   var cusid_ele = document.getElementsByClassName('door');
-for (var i = 0; i < cusid_ele.length; ++i) {
-    var item = cusid_ele[i];  
-    // item.innerHTML = 'this is value' + i;
-  item.classList.remove("doorOpen");
-}
-  this.classList.toggle("doorOpen");
+  for (var i = 0; i < cusid_ele.length; ++i) {
+      var item = cusid_ele[i];  
+      // item.innerHTML = 'this is value' + i;
+    item.classList.remove("doorOpen");
+  }
+    this.classList.toggle("doorOpen");
+
+    // var boxClass = $(this).parent().parent().prop('className')
+    // var boxNo = boxClass.slice(-2);
+    boxNo = $(this).html()
 }
 
 function myFunction() {
@@ -32,7 +39,7 @@ $(document).ready(function(){
     var info = "Ustal PIN: ";
     var sum = "";
     var len;
-    var pin = [];
+    // var pin = [];
     //var arr= [];
     var operators = ["+", "-", "*", "/"];
     var inputVal = document.getElementById("screen");
@@ -98,13 +105,29 @@ $(document).ready(function(){
       var emoji = $(".test-emoji").html();
       let hex = emoji.codePointAt(0).toString(16)
       // let emo = String.fromCodePoint("0x"+hex);
-      console.log(hex)
-      alert(hex);
+
+      if (validate()) {
+        pinString = pin.join("")
+        console.log(pinString, hex, boxNo)
+        alert(pinString + ", " + hex + ", " + boxNo);
+      }
     });
 
     };
           calculator();
 });
+
+function validate() {
+    if( pin.length != 4 ) {
+      alert( "Ustal 4-cyfrowy pin!" );
+      return false;
+    }
+    if( boxNo == undefined ) {
+      alert( "Wybierz skrytkę!" );
+      return false;
+    }
+    return( true );
+}
 
 function pinScreen(pin) {
     pinString = pin.join("");
