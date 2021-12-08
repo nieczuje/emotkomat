@@ -15,15 +15,25 @@
       <div class="modal-content">
         <div class="modal-header">
           <span class="close">&times;</span>
-          <h2>Modal Header</h2>
+          <h2>Twoja emotka została nadana!</h2>
         </div>
         <div class="modal-body">
-          <p>Some text in the Modal Body</p>
-          <p>Some other text...</p>
-          <p id="modal-text"></p>
+          <p>
+            Skopiuj poniższy link oraz PIN i wklej znajomym, żeby mogli odebrać
+            emotkę:
+          </p>
+          <div id="modal-copy">
+            <p id="export-copy">
+              <strong>PIN: </strong
+              ><span id="modal-text"></span>
+              http://127.0.0.1:5500/index.html/?=<span id="modal-link"></span>
+            </p>
+            <!-- <p>PIN: <span id="modal-text"></span></p> -->
+          </div>
+          <button class="btn-copy">kopiuj</button>
         </div>
         <div class="modal-footer">
-          <h3>Modal Footer</h3>
+          <h6>emotkomat.pl by <em>47studio</em></h6>
         </div>
       </div>
     </div>
@@ -2124,7 +2134,7 @@
             </div>
             <div class="panel">
               <div class="calc-card">
-                <div id="screen" class="screen">Ustal PIN: ****</div>
+                <div id="screen" class="screen">Ustal PIN:****</div>
                 <div class="buttons">
                   <button class="digit black-button" value="1">1</button>
                   <button class="digit black-button" value="2">2</button>

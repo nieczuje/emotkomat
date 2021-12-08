@@ -8,6 +8,7 @@
 
 var boxNo = undefined;
 var pin = [];
+var exportString = "123456";
 
 function toggleDoor() {
   var cusid_ele = document.getElementsByClassName('door');
@@ -36,7 +37,7 @@ function myFunction() {
 $(document).ready(function(){
 
   function calculator(){
-    var info = "Ustal PIN: ";
+    var info = "Ustal PIN:";
     var sum = "";
     var len;
     // var pin = [];
@@ -101,6 +102,19 @@ $(document).ready(function(){
         $("#screen").html(info + "****");
     });
 
+    $(".btn-copy").on('click', function() {
+        /* Get the text field */
+        var copyText = document.getElementById("export-copy");
+
+        // /* Select the text field */
+        // copyText.select();
+        // copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+        /* Copy the text inside the text field */
+        navigator.clipboard.writeText(copyText.textContent);
+        // alert(exportString);
+    });
+
     $("#enter").on('click', function() {
       var emoji = $(".test-emoji").html();
       let hex = emoji.codePointAt(0).toString(16)
@@ -109,10 +123,24 @@ $(document).ready(function(){
       if (validate()) {
         pinString = pin.join("")
         console.log(pinString, hex, boxNo)
-        alert(pinString + ", " + hex + ", " + boxNo);
+        // alert(pinString + ", " + hex + ", " + boxNo);
 
+        // close door
+        var cusid_ele = document.getElementsByClassName('door');
+        for (var i = 0; i < cusid_ele.length; ++i) {
+            var item = cusid_ele[i];  
+            // item.innerHTML = 'this is value' + i;
+          item.classList.remove("doorOpen");
+        }
+
+        // modal
         $("#modal-text").text(pinString);
-        modal.style.display = "block";
+        $("#modal-link").text(hex + hex + hex + hex);
+
+        setTimeout(function() {
+            modal.style.display = "block";
+        }, 1000);
+        // modal.style.display = "block";
       }
     });
 
