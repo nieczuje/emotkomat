@@ -122,6 +122,16 @@ $(document).on("click","#emoji-picker",function(e){
     $('.intercom-composer-emoji-popover').toggleClass("active");
 });
 
+// $(document).on("click",".chat-input-tool",function(e){
+//    e.stopPropagation();
+//   //  var myClass = this.className;
+//    var myClass = $(this).parent();
+//    alert(JSON.stringify(myClass));
+//     $('.intercom-composer-emoji-popover').toggleClass("active");
+// });
+
+
+
 $(document).click(function (e) {
     if ($(e.target).attr('class') != '.intercom-composer-emoji-popover' && $(e.target).parents(".intercom-composer-emoji-popover").length == 0) {
         $(".intercom-composer-emoji-popover").removeClass("active");
