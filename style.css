@@ -441,6 +441,9 @@ button:active {
   visibility: visible;
   opacity: 1;
   bottom: 70px;
+
+  /* filter: drop-shadow(0 0 100rem rgb(0, 0, 0)); */
+  box-shadow: 0 0 4rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 .intercom-emoji-picker {
   width: 330px;
@@ -513,7 +516,7 @@ button:active {
   -ms-transform: scale(1.4);
   transform: scale(1.4);
 }
-.intercom-composer-popover-caret {
+/* .intercom-composer-popover-caret {
   position: absolute;
   bottom: -8px;
   right: 0;
@@ -522,8 +525,8 @@ button:active {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-top: 8px solid #fff;
-  left: 20px;
-}
+  left: 50%;
+} */
 
 .emoji-panel {
   display: flex;
@@ -535,8 +538,10 @@ button:active {
   /*   background-color: #32A8E6; */
   background-color: transparent;
   background-repeat: no-repeat;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 100;
   color: white;
-  padding: 4px;
+  padding: 0.2rem 0.4rem;
   border: 1px solid white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -548,6 +553,7 @@ button:active {
   outline: none;
   /*   margin-left: 2rem; */
   margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
 }
 
 #emoji-contener {
