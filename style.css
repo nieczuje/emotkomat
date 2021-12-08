@@ -7,6 +7,7 @@
   --my-red: #e33939;
   --white: #ffffff;
   --my-gray: rgb(190, 190, 190);
+  --dark-gray: #222;
 }
 
 #drawing {
@@ -603,12 +604,13 @@ button:active {
   margin: auto;
   padding: 0;
   border: 1px solid #888;
-  width: 80%;
+  width: 40%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /* Add Animation */
@@ -650,19 +652,62 @@ button:active {
 }
 
 .modal-header {
-  padding: 2px 16px;
-  background-color: #5cb85c;
+  padding: 1rem 1.4rem;
+  background-color: #222;
   color: white;
+  text-align: center;
 }
 
 .modal-body {
-  padding: 2px 16px;
+  padding: 1.2rem 1.4rem 1rem;
+  position: relative;
 }
 
 .modal-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
+  padding: 0.2rem 0.2rem;
+  /* background-color: #222; */
+  color: #222;
+  font-weight: 100;
+  text-align: right;
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+#modal-copy {
+  border: 3px dotted var(--my-red);
+  padding: 2rem;
+  margin: 2rem;
+  /* background-color: red; */
+}
+
+.btn-copy {
+  background-color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 100;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+  padding: 0.3rem 0.7rem;
+  border: 2px solid var(--dark-gray);
+  border-radius: 10px;
+  /*   position: absolute; */
+  /*   position: relative; */
+  /*   top: 8rem; */
+  /*   bottom:20px; */
+  /*   left: 5%; */
+  outline: none;
+  /*   margin-left: 2rem; */
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 11.6rem;
+  cursor: pointer;
+}
+
+.btn-copy:active {
+  background-color: var(--my-red);
 }
 
 /* GRID */
