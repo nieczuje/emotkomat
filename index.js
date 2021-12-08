@@ -94,6 +94,14 @@ $(document).ready(function(){
         $("#screen").html(info + "****");
     });
 
+    $("#enter").on('click', function() {
+      var emoji = $(".test-emoji").html();
+      let hex = emoji.codePointAt(0).toString(16)
+      // let emo = String.fromCodePoint("0x"+hex);
+      console.log(hex)
+      alert(hex);
+    });
+
     };
           calculator();
 });
