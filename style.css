@@ -646,7 +646,7 @@ button:active {
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: var(--my-gray);
   text-decoration: none;
   cursor: pointer;
 }
@@ -675,9 +675,13 @@ button:active {
 
 #modal-copy {
   border: 3px dotted var(--my-red);
-  padding: 2rem;
+  padding: 1.4rem;
   margin: 2rem;
   /* background-color: red; */
+}
+
+.modal-meesage {
+  position: relative;
 }
 
 .btn-copy {
@@ -702,12 +706,75 @@ button:active {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 11.6rem;
+  bottom: 1.2rem;
   cursor: pointer;
 }
 
 .btn-copy:active {
   background-color: var(--my-red);
+}
+
+#btn-copied {
+  /* display: none; */
+  visibility: hidden;
+  color: var(--dark-gray);
+  text-align: center;
+  font-size: 0.8rem;
+  position: relative;
+  /* top: -3rem; */
+}
+
+.btn-copy2 {
+  background-color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 100;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+  padding: 0.3rem 0.7rem;
+  border: 2px solid var(--dark-gray);
+  border-radius: 10px;
+  /*   position: absolute; */
+  /*   position: relative; */
+  /*   top: 8rem; */
+  /*   bottom:20px; */
+  /*   left: 5%; */
+  outline: none;
+  /*   margin-left: 2rem; */
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* top: 20.6rem; */
+  bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-copy2:active {
+  background-color: var(--my-red);
+}
+
+#btn-copied2 {
+  /* display: none; */
+  visibility: hidden;
+  color: var(--dark-gray);
+  text-align: center;
+  font-size: 0.8rem;
+  position: relative;
+  /* top: -3rem; */
+}
+
+/* FOOTER */
+
+footer {
+  position: absolute;
+  bottom: 0.2rem;
+  width: 100%;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 100;
+  font-size: 0.7rem;
 }
 
 /* GRID */

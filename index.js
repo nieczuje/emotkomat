@@ -113,6 +113,20 @@ $(document).ready(function(){
         /* Copy the text inside the text field */
         navigator.clipboard.writeText(copyText.textContent);
         // alert(exportString);
+
+        $("#btn-copied").css('visibility', 'visible');
+        $("#btn-copied2").css('visibility', 'hidden');
+    });
+
+    $(".btn-copy2").on('click', function() {
+        /* Get the text field */
+        var copyText = document.getElementById("export-copy2");
+
+        /* Copy the text inside the text field */
+        navigator.clipboard.writeText(copyText.textContent);
+
+        $("#btn-copied2").css('visibility', 'visible');
+        $("#btn-copied").css('visibility', 'hidden');
     });
 
     $("#enter").on('click', function() {
@@ -136,6 +150,7 @@ $(document).ready(function(){
         // modal
         $("#modal-text").text(pinString);
         $("#modal-link").text(hex + hex + hex + hex);
+        $("#modal-link2").text(hex + hex + hex + hex);
 
         setTimeout(function() {
             modal.style.display = "block";

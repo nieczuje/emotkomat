@@ -19,21 +19,47 @@
         </div>
         <div class="modal-body">
           <p>
-            Skopiuj poniższy link oraz PIN i wklej znajomym, żeby mogli odebrać
-            emotkę:
+            Skopiuj poniższą wiadomość z linkiem oraz PINem i wklej znajomym,
+            żeby mogli odebrać emotkę:
           </p>
-          <div id="modal-copy">
-            <p id="export-copy">
-              <strong>PIN: </strong
-              ><span id="modal-text"></span>
-              http://127.0.0.1:5500/index.html/?=<span id="modal-link"></span>
-            </p>
-            <!-- <p>PIN: <span id="modal-text"></span></p> -->
+          <div class="modal-meesage">
+            <div id="modal-copy">
+              <p id="export-copy">
+                Emotka czeka na Ciebie w Emotkomacie odbiorczym! Wejdz w link,
+                podaj PIN i naciśnij "ODBIERZ".
+                <strong>PIN: <span id="modal-text"></span></strong><span> </span
+                ><a href="#"
+                  >http://127.0.0.1:5500/index.html/?=<span
+                    id="modal-link"
+                  ></span
+                ></a>
+              </p>
+              <!-- <p>PIN: <span id="modal-text"></span></p> -->
+            </div>
+            <button class="btn-copy">kopiuj</button>
+            <p id="btn-copied"><em>skopiowano</em></p>
           </div>
-          <button class="btn-copy">kopiuj</button>
+          <br />
+          <div class="modal-meesage">
+            <p>Lub skopiuj sam link - nie zapomnij o PINie!</p>
+            <div id="modal-copy">
+              <p id="export-copy2">
+                <a href="#"
+                  >http://127.0.0.1:5500/index.html/?=<span
+                    id="modal-link2"
+                  ></span
+                ></a>
+              </p>
+              <!-- <p>PIN: <span id="modal-text"></span></p> -->
+            </div>
+            <button class="btn-copy2">kopiuj</button>
+            <p id="btn-copied2"><em>skopiowano</em></p>
+          </div>
         </div>
         <div class="modal-footer">
-          <h6>emotkomat.pl by <em>47studio</em></h6>
+          <h6>
+            emotkomat.pl by <em><a href="#">47studio</a></em>
+          </h6>
         </div>
       </div>
     </div>
@@ -2359,6 +2385,15 @@
         </div>
       </div>
     </div>
+
+    <footer>
+      &copy; Copyright
+      <script>
+        new Date().getFullYear() > 2017 &&
+          document.write(new Date().getFullYear());
+      </script>
+      Emotkomat
+    </footer>
 
     <script src="index.js"></script>
   </body>
