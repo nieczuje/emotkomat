@@ -12,12 +12,16 @@ var exportString = "123456";
 
 function toggleDoor() {
   var cusid_ele = document.getElementsByClassName('door');
+  // var cusid_ele2 = document.getElementsByClassName('door2');
   for (var i = 0; i < cusid_ele.length; ++i) {
-      var item = cusid_ele[i];  
+      var item = cusid_ele[i];
+      // var item2 = cusid_ele2[i];
       // item.innerHTML = 'this is value' + i;
     item.classList.remove("doorOpen");
+    // item2.classList.remove("doorOpen");
   }
     this.classList.toggle("doorOpen");
+    // item2.classList.toggle("doorOpen");
 
     // var boxClass = $(this).parent().parent().prop('className')
     // var boxNo = boxClass.slice(-2);
