@@ -603,8 +603,22 @@ button:active {
   font-weight: 100;
   /* left: 0%; */
   width: 7.6rem;
+
+  overflow: auto;
+  /* text-size-adjust: auto; */
   /* top: 0%; */
   /* border: 1px solid red; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.test-emoji::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.test-emoji {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* MODAL */
