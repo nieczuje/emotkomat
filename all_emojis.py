@@ -4,9 +4,12 @@ import re
 def html():
     html = ""
     counter = 0
+    emojis_added = []
     with open("emoji-test.txt", encoding = 'utf-8') as f:
         for line in f:
             # print(line, end = '')
+            if "skin tone" in line:
+                continue
             line = line.split(" ")
             if len(line) > 1:
                 if line[1] == "group:":
@@ -21,6 +24,9 @@ def html():
                         counter += 1
                         title = ""
                         add_w = False
+                        # print(line)
+                        # input()
+                        result = ""
                         for w in line:
                             if add_w:
                                 w_alfa = re.sub('[^A-Za-z0-9]', "", w)
@@ -30,22 +36,34 @@ def html():
                                 if "." in w:
                                     add_w = True
                         title = title[1:]
-                        result = line[0]
-                        if len(result) < 2:
+                        for r in line:
+                            emoji = "&#x" + r + ";"
+                            if len(r) < 2:
+                                break
+                            result += emoji
+                        # result = line[0]
+                        if len(result) < 5:
                             continue
-                        html_span = '<span class="intercom-emoji-picker-emoji" title="' + title + '">&#x' + result + ';</span>'
+                        # if result in emojis_added:
+                        #     continue
+                        html_span = '<span class="intercom-emoji-picker-emoji" title="' + title.lower() + '">' + result + '</span>'
                         # print(line)
                         # print(html_span)
+                        # input()
                         html += html_span
+                        emojis_added.append(result)
     
     html = html[6:]
     html += '</div>'
+    html = '<div class="intercom-emoji-picker-groups">' + html + '</div>'
+
+    php = "<?php echo '" + html + "';?>"
 
     return html
 
 def save():
     myhtml = html()
-    with open('myhtml.txt', 'w') as f:
+    with open('myhtml.html', 'w') as f:
         f.write(myhtml)
 
             # print(line)
