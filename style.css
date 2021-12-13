@@ -192,9 +192,10 @@ body {
 }
 
 .buttons {
-  width: 14rem;
+  width: 14.6rem;
   margin: 0 auto;
   margin-top: 1rem;
+  margin-left: 1.8rem;
 }
 
 .black-button {
