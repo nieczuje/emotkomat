@@ -57,11 +57,11 @@ echo "Software used:";
           </p>
           <div class="modal-meesage">
             <div id="modal-copy">
-              <p id="export-copy">Emotka czeka na Ciebie w Emotkomacie odbiorczym! Wejdz w link, podaj PIN i naciśnij "ODBIERZ". <a id="problem-link" href="#" target="_blank"
+              <p id="export-copy">Emotka czeka na Ciebie w Emotkomacie odbiorczym! Wejdz w link, podaj PIN i naciśnij "ODBIERZ". <strong><br> PIN: <span id="modal-text"></span></strong><br><a id="problem-link" href="#" target="_blank"
                   >https://www.emotkomat.pl/index.php?peb=<span
                     id="modal-link"
                   ></span
-                ></a><strong><br> PIN: <span id="modal-text"></span></strong><span> </span
+                ></a><span> </span
                 ></p>
             </div>
             <button class="btn-copy">kopiuj</button>
