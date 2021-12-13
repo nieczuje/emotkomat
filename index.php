@@ -10,6 +10,12 @@ echo "Software used:";
       <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <title>Emotkomat</title>
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="/favicon_io/site.webmanifest">
+
       <link rel="stylesheet" href="style.css" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script> -->
