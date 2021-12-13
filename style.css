@@ -463,11 +463,12 @@ button:active {
   opacity: 0;
   transition: all 0.2s linear;
   visibility: hidden;
+  height: 50rem;
 }
 .intercom-composer-popover.active {
   visibility: visible;
   opacity: 1;
-  bottom: 70px;
+  bottom: -30rem;
 
   /* filter: drop-shadow(0 0 100rem rgb(0, 0, 0)); */
   box-shadow: 0 0 4rem 0.2rem rgba(0, 0, 0, 0.3);
@@ -896,10 +897,4 @@ footer a:hover {
   #drawing-receive {
     width: 71rem;
   }
-  /* .btn-copy {
-    visibility: hidden;
-  }
-  .btn-copy2 {
-    visibility: hidden;
-  } */
 }
