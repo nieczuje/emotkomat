@@ -117,6 +117,7 @@ $(document).ready(function(){
         /* Copy the text inside the text field */
         navigator.clipboard.writeText(copyText.textContent);
         // alert(exportString);
+        // result = document.execCommand('copy');
 
         $("#btn-copied").css('visibility', 'visible');
         $("#btn-copied2").css('visibility', 'hidden');
