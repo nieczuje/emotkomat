@@ -495,7 +495,7 @@ echo "Software used:";
         new Date().getFullYear() > 2017 &&
           document.write(new Date().getFullYear());
       </script>
-      emotkomat.pl by&nbsp;<em><a href="https://www.47studio.pl/" target="_blank" class="studio_link">47studio</a></em>
+      emotkomat.pl by&nbsp;<em><a href="http://www.47studio.pl/" target="_blank" class="studio_link">47studio</a></em>
     </footer>
 
     <script src="index.js"></script>
