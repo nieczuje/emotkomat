@@ -1,30 +1,14 @@
-
-// var element = document.querySelector(".door");
-// element.addEventListener("click", toggleDoor);
-
-// function toggleDoor() {
-//   element.classList.toggle("doorOpen");
-// }
-
 var boxNo = undefined;
 var pin = [];
 var exportString = "123456";
 
 function toggleDoor() {
   var cusid_ele = document.getElementsByClassName('door');
-  // var cusid_ele2 = document.getElementsByClassName('door2');
   for (var i = 0; i < cusid_ele.length; ++i) {
       var item = cusid_ele[i];
-      // var item2 = cusid_ele2[i];
-      // item.innerHTML = 'this is value' + i;
     item.classList.remove("doorOpen");
-    // item2.classList.remove("doorOpen");
   }
     this.classList.toggle("doorOpen");
-    // item2.classList.toggle("doorOpen");
-
-    // var boxClass = $(this).parent().parent().prop('className')
-    // var boxNo = boxClass.slice(-2);
     boxNo = $(this).html()
 }
 
@@ -32,7 +16,6 @@ function myFunction() {
   var x, i;
   x = document.querySelectorAll(".door");
   for (i = 0; i < x.length; i++) {
-    // x[i].style.backgroundColor = "blue";
     x[i].addEventListener("click", toggleDoor);
     x[i].innerHTML = i + 1;
   }
@@ -44,21 +27,15 @@ $(document).ready(function(){
     var info = "Ustal PIN:";
     var sum = "";
     var len;
-    // var pin = [];
-    //var arr= [];
     var operators = ["+", "-", "*", "/"];
     var inputVal = document.getElementById("screen");
 
     $(".buttons .digit").on('click', function() {
       var num = $(this).attr('value');
       sum += num;
-      //arr.push(num);
-    //   $("#screen").html(info + sum);
     len = inputVal.innerHTML.split("");
     console.log(len);
-    // pin.push(num)
     console.log(pin.length)
-    //console.log(arr);
     if (pin.length == 4) {
         //pass
     } else {
@@ -69,33 +46,12 @@ $(document).ready(function(){
     console.log(pinScreen(pin))
 
     });
-    // $(".buttons .operator").on('click', function(e) {
-    //   e.preventDefault();
-    //   var ops = $(this).attr('value');
-    //   sum += ops;
-    //   //arr.push(num);
-    //   $("#screen").html(sum);
-    //    len = inputVal.innerHTML;
-    //   if(/(?=(\D{2}))/g.test(sum)) {
-    //     sum = len.substring(0, len.length - 1);
-    //     $("#screen").html(sum);
-    //   }
-    //   //len = inputVal.innerHTML.split("");
-    //     //console.log(len);
-        
-    //   //console.log(arr);
-
-    // });
-
 
     $("#equal").on('click', function() {
         var total =  eval(sum);
-        //$("#screen").attr('value', total);
-        // $("#screen").html(total % 1 != 0 ? total.toFixed(2) : total);
         pin.pop()
         console.log(pin)
         currentScreen = document.getElementById("screen").innerHTML;
-        // $("#screen").html(info + pin);
         $("#screen").html(info + pinScreen(pin))
     });
 
@@ -110,14 +66,8 @@ $(document).ready(function(){
         /* Get the text field */
         var copyText = document.getElementById("export-copy");
 
-        // /* Select the text field */
-        // copyText.select();
-        // copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
         /* Copy the text inside the text field */
         navigator.clipboard.writeText(copyText.textContent);
-        // alert(exportString);
-        // result = document.execCommand('copy');
 
         $("#btn-copied").css('visibility', 'visible');
         $("#btn-copied2").css('visibility', 'hidden');
@@ -137,18 +87,15 @@ $(document).ready(function(){
     $("#enter").on('click', function() {
       var emoji = $(".test-emoji").html();
       let hex = emoji.codePointAt(0).toString(16)
-      // let emo = String.fromCodePoint("0x"+hex);
 
       if (validate()) {
         pinString = pin.join("")
         console.log(pinString, hex, boxNo)
-        // alert(pinString + ", " + hex + ", " + boxNo);
 
         // close door
         var cusid_ele = document.getElementsByClassName('door');
         for (var i = 0; i < cusid_ele.length; ++i) {
-            var item = cusid_ele[i];  
-            // item.innerHTML = 'this is value' + i;
+            var item = cusid_ele[i];
           item.classList.remove("doorOpen");
         }
 
@@ -160,7 +107,6 @@ $(document).ready(function(){
         setTimeout(function() {
             modal.style.display = "block";
         }, 1000);
-        // modal.style.display = "block";
       }
     });
 
@@ -204,16 +150,6 @@ $(document).on("click","#emoji-picker",function(e){
     $('.intercom-composer-emoji-popover').toggleClass("active");
 });
 
-// $(document).on("click",".chat-input-tool",function(e){
-//    e.stopPropagation();
-//   //  var myClass = this.className;
-//    var myClass = $(this).parent();
-//    alert(JSON.stringify(myClass));
-//     $('.intercom-composer-emoji-popover').toggleClass("active");
-// });
-
-
-
 $(document).click(function (e) {
     if ($(e.target).attr('class') != '.intercom-composer-emoji-popover' && $(e.target).parents(".intercom-composer-emoji-popover").length == 0) {
         $(".intercom-composer-emoji-popover").removeClass("active");
@@ -245,16 +181,8 @@ $('.intercom-composer-popover-input').on('input', function() {
 // Get the modal
 var modal = document.getElementById("myModal");
 
-// // Get the button that opens the modal
-// var btn = document.getElementById("myBtn");
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
-// // When the user clicks the button, open the modal 
-// btn.onclick = function() {
-//   modal.style.display = "block";
-// }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
