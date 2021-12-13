@@ -16,8 +16,6 @@
 	</head>
 	<body>
 		
-    <!-- let message = ""; -->
-
 		<div class="container" style="margin-top: 50px">
 		
 			<div id="screen">
@@ -28,37 +26,6 @@
 					{
 						// Print total to the browser
 						echo "<h1>box {$_GET['box']}, emoji {$_GET['emoji']}, PIN {$_GET['pin_number']} equals</h1>";
-						// // Check number values
-						// if(is_numeric($_GET['number1']) && is_numeric($_GET['number2']))
-						// {
-						// 	// Calculate total
-						// 	if($_GET['operation'] == 'plus')
-						// 	{
-						// 		$total = $_GET['number1'] + $_GET['number2'];	
-						// 	}
-						// 	if($_GET['operation'] == 'minus')
-						// 	{
-						// 		$total = $_GET['number1'] - $_GET['number2'];	
-						// 	}
-						// 	if($_GET['operation'] == 'times')
-						// 	{
-						// 		$total = $_GET['number1'] * $_GET['number2'];	
-						// 	}
-						// 	if($_GET['operation'] == 'divided by')
-						// 	{
-						// 		$total = $_GET['number1'] / $_GET['number2'];	
-						// 	}
-							
-						// 	// Print total to the browser
-						// 	echo "<h1>{$_GET['number1']} {$_GET['operation']} {$_GET['number2']} equals {$total}</h1>";
-						// 	// message = "<h1>{$_GET['number1']} {$_GET['operation']} {$_GET['number2']} equals {$total}</h1>";
-
-						// } else {
-							
-						// 	// Print error message to the browser
-						// 	echo 'Numeric values are required';
-						
-						// }
 					} else {
 						// Print error message to the browser
 						echo '****';
@@ -80,13 +47,6 @@
 				<input name="emoji" type="text" class="form-control" style="width: 150px; display: inline" />
 				<input name="pin_number" type="text" class="form-control" style="width: 150px; display: inline" />
                 
-		        <!-- <select name="operation">
-		        	<option value="plus">Plus</option>
-		            <option value="minus">Minus</option>
-		            <option value="times">Times</option>
-		            <option value="divided by">Divided By</option>
-		        </select> -->
-		        <!-- <input name="number2" type="text" class="form-control" style="width: 150px; display: inline" /> -->
 		        <input name="submit" type="submit" value="Calculate" class="btn btn-primary" />
 		    </form>
 	    

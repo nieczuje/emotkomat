@@ -34,7 +34,6 @@
 }
 
 #rectangle {
-  /* background-color: red; */
   width: 70rem;
   height: 26rem;
   position: relative;
@@ -42,7 +41,6 @@
 
 .button {
   background-color: white;
-  /*   border: none; */
   color: #2c6c94;
   padding: 0.5rem 2rem;
   text-align: center;
@@ -61,16 +59,12 @@
 
 .send {
   cursor: pointer;
-  /* background-color: #e33939;
-  color: white; */
   border: 2px solid var(--my-red);
   background-color: white;
   color: var(--my-red);
 }
 
 .send:hover {
-  /* background-color: white;
-  color: #e33939; */
   background-color: var(--my-red);
   color: white;
 }
@@ -88,14 +82,12 @@
 /* RECTANGLE */
 
 .opening {
-  /* background-color: #232323; */
   height: 7.8rem;
   width: 7.8rem;
   position: relative;
   margin: 0.2rem auto;
   margin-bottom: 0.8rem;
   background: #242424;
-  /* background: red; */
   box-shadow: inset 0px 8.4rem 0.3rem -3rem rgba(0, 0, 0, 0.8);
 }
 
@@ -122,7 +114,6 @@
   transform-origin: left;
   /*Speed of the Door animation*/
   transition: all 0.5s ease-in-out;
-  /* backface-visibility: hidden; */
 }
 
 .door2 {
@@ -157,20 +148,14 @@
 }
 
 /* CALC */
-/* .panel {
-  margin-left: 1rem;
-} */
-
 .screen {
   width: 14rem;
   height: 3.4rem;
-  /* margin: 10px; */
   line-height: 3.6rem;
   margin: 1rem auto;
   left: 0px;
   position: relative;
   padding-left: 1rem;
-  /* background: #cad69a; */
   background: var(--my-gray);
   text-align: left;
   text-shadow: none;
@@ -187,11 +172,6 @@
     0px 1px #e6e6e6;
   box-shadow: inset 0 0 4px #333, inset 0 1px 1px #0a0b0d, 0px 1px #e6e6e6;
 }
-
-/* .buttons_wrap {
-  display: flex;
-  align-items: center;
-} */
 
 .buttons {
   width: 14.6rem;
@@ -230,24 +210,12 @@ button:active {
 .submit {
   width: 13.6rem;
   text-transform: uppercase;
-  /* -moz-box-shadow: inset 0 0 10px #666, inset 0px 1px #bcd6ff, 0 1px 1px #323643;
-  -webkit-box-shadow: inset 0 0 10px #666, inset 0px 1px #bcd6ff,
-    0 1px 1px #323643;
-  box-shadow: inset 0 0 10px #555, inset 0px 1px #bcd6ff,
-    0 1px 1px var(--my-red); */
   background: var(--my-red);
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: 300;
 }
 
 /* EMOJI */
-
-/* body {
-  font-family: "intercom-font", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-image: url(https://js.intercomcdn.com/images/background-1.1829ebd9.png);
-  background-size: 417px 417px;
-  background-repeat: repeat;
-} */
 
 .intercom-composer-popover-input {
   font-size-adjust: none;
@@ -478,7 +446,6 @@ button:active {
   opacity: 1;
   bottom: -30rem;
 
-  /* filter: drop-shadow(0 0 100rem rgb(0, 0, 0)); */
   box-shadow: 0 0 4rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 .intercom-emoji-picker {
@@ -552,18 +519,6 @@ button:active {
   -ms-transform: scale(1.4);
   transform: scale(1.4);
 }
-/* .intercom-composer-popover-caret {
-  position: absolute;
-  bottom: -8px;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-top: 8px solid #fff;
-  left: 50%;
-} */
-
 .emoji-panel {
   display: flex;
   justify-content: center;
@@ -571,7 +526,6 @@ button:active {
 }
 
 .chat-input-tool {
-  /*   background-color: #32A8E6; */
   background-color: transparent;
   background-repeat: no-repeat;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -581,40 +535,25 @@ button:active {
   border: 1px solid white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  /*   position: absolute; */
-  /*   position: relative; */
-  /*   top: 8rem; */
-  /*   bottom:20px; */
-  /*   left: 5%; */
   outline: none;
-  /*   margin-left: 2rem; */
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
 }
 
 #emoji-contener {
-  /* border: 1px solid green; */
-  /*   background-color: yellow; */
-  /*   position: relative; */
   width: 7.8rem;
   height: 7.8rem;
-  /* margin: 0rem; */
 }
 
 .test-emoji {
-  /*   position: absolute; */
   position: relative;
   text-align: center;
   font-size: 4.6rem;
   color: white;
   font-weight: 100;
-  /* left: 0%; */
   width: 7.6rem;
 
   overflow: auto;
-  /* text-size-adjust: auto; */
-  /* top: 0%; */
-  /* border: 1px solid red; */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -643,7 +582,6 @@ button:active {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-  /* display: block; */
 }
 
 /* Modal Content */
@@ -714,7 +652,6 @@ button:active {
 
 .modal-footer {
   padding: 0.2rem 0.2rem;
-  /* background-color: #222; */
   color: #222;
   font-weight: 100;
   text-align: right;
@@ -726,7 +663,6 @@ button:active {
   border: 3px dotted var(--my-red);
   padding: 1.4rem;
   margin: 2rem;
-  /* background-color: red; */
 }
 
 .modal-meesage {
@@ -743,13 +679,7 @@ button:active {
   padding: 0.3rem 0.7rem;
   border: 2px solid var(--dark-gray);
   border-radius: 10px;
-  /*   position: absolute; */
-  /*   position: relative; */
-  /*   top: 8rem; */
-  /*   bottom:20px; */
-  /*   left: 5%; */
   outline: none;
-  /*   margin-left: 2rem; */
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
   position: absolute;
@@ -764,13 +694,11 @@ button:active {
 }
 
 #btn-copied {
-  /* display: none; */
   visibility: hidden;
   color: var(--dark-gray);
   text-align: center;
   font-size: 0.8rem;
   position: relative;
-  /* top: -3rem; */
 }
 
 .btn-copy2 {
@@ -783,19 +711,12 @@ button:active {
   padding: 0.3rem 0.7rem;
   border: 2px solid var(--dark-gray);
   border-radius: 10px;
-  /*   position: absolute; */
-  /*   position: relative; */
-  /*   top: 8rem; */
-  /*   bottom:20px; */
-  /*   left: 5%; */
   outline: none;
-  /*   margin-left: 2rem; */
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  /* top: 20.6rem; */
   bottom: 1.2rem;
   cursor: pointer;
 }
@@ -805,13 +726,11 @@ button:active {
 }
 
 #btn-copied2 {
-  /* display: none; */
   visibility: hidden;
   color: var(--dark-gray);
   text-align: center;
   font-size: 0.8rem;
   position: relative;
-  /* top: -3rem; */
 }
 
 /* FOOTER */
@@ -919,20 +838,10 @@ footer {
 @media only screen and (max-width: 1000px) {
   #drawing {
     width: 70rem;
-    /* height: 26rem; */
   }
   #rectangle {
     background-color: lightblue;
     width: 70rem;
     height: 26rem;
   }
-  /* .btn-copy {
-    visibility: hidden;
-  }
-  .btn-copy2 {
-    visibility: hidden;
-  }
-  .intercom-composer-popover.active {
-    bottom: -21.4rem;
-  } */
 }
