@@ -23,25 +23,11 @@ echo "Software used:";
       <!-- <script src="//cdn.jsdelivr.net/npm/simple-crypto-js@2.5.0/dist/SimpleCrypto.min.js"></script> -->
 
       <script>
-      var peb = "<?php echo htmlspecialchars($_GET["peb"] ?? null) ?>";
-      if (peb) {
-          var peb_link = peb.toString().replace(/p1L2u3S/g, '+' ).replace(/s1L2a3S4h/g, '/').replace(/e1Q2u3A4l/g, '=');
-          var decrypted = CryptoJS.Rabbit.decrypt(peb_link, "jiemo");
-          var result = CryptoJS.enc.Utf8.stringify(decrypted);
-          result = result.split(" ");
-          var userPin = result[0];
-          var userEmoji = result[1];
-          var userBox = result[2];
-      }
+      let peb = "<?php echo htmlspecialchars($_GET["peb"] ?? null) ?>";
       </script>
   </head>
-  <body onload="<?php
-      if(isset($_GET["peb"])) {
-          echo 'myFunctionReceive';
-      } else {
-          echo 'myFunction';
-      }
-      ?>()">
+
+  <body>
     <!-- The Modal -->
     <div id="myModal" class="modal">
       <!-- Modal content -->
@@ -56,8 +42,8 @@ echo "Software used:";
             żeby mogli odebrać emotkę:
           </p>
           <div class="modal-meesage">
-            <div id="modal-copy">
-              <p id="export-copy">Emotka czeka na Ciebie w Emotkomacie odbiorczym! Wejdz w link, podaj PIN i naciśnij "ODBIERZ". <strong><br> PIN: <span id="modal-text"></span></strong><br><span> </span
+            <div class="modal-copy">
+              <p id="export-copy" class="export-link">Emotka czeka na Ciebie w Emotkomacie odbiorczym! Wejdz w link, podaj PIN i naciśnij "ODBIERZ". <strong><br> PIN: <span id="modal-text"></span></strong><br><span> </span
                 ><a id="problem-link" href="#" target="_blank"
                   >https://www.emotkomat.pl/index.php?peb=<span
                     id="modal-link"
@@ -65,21 +51,21 @@ echo "Software used:";
                 ></a><span> </span
                 ></p>
             </div>
-            <button class="btn-copy">kopiuj</button>
-            <p id="btn-copied"><em>skopiowano</em></p>
+            <button id="btn-copy" class="btns-copy">kopiuj</button>
+            <p id="btn-copied" class="btns-copied"><em>skopiowano</em></p>
           </div>
           <br />
           <div class="modal-meesage">
             <p>Lub skopiuj sam link - nie zapomnij o PINie!</p>
-            <div id="modal-copy">
-              <p id="export-copy2"><a id="problem-link2" href="#" target="_blank"
+            <div class="modal-copy">
+              <p id="export-copy-short" class="export-link"><a id="problem-link2" href="#" target="_blank"
                   >https://www.emotkomat.pl/index.php?peb=<span
-                    id="modal-link2"
+                    id="modal-link-short"
                   ></span
                 ></a></p>
             </div>
-            <button class="btn-copy2">kopiuj</button>
-            <p id="btn-copied2"><em>skopiowano</em></p>
+            <button id="btn-copy-short" class="btns-copy">kopiuj</button>
+            <p id="btn-copied-short" class="btns-copied"><em>skopiowano</em></p>
           </div>
         </div>
         <div class="modal-footer">
@@ -90,11 +76,11 @@ echo "Software used:";
       </div>
     </div>
 
-    <div id="<?php
+    <div id="drawing" class="<?php
         if(isset($_GET["peb"])) {
-            echo 'drawing-receive';
+            echo 'drawing-bg-receive';
         } else {
-            echo 'drawing';
+            echo 'drawing-bg';
         }
         ?>">
       <div id="around">
@@ -127,6 +113,13 @@ echo "Software used:";
               echo '<span class="button send-inactive">emotkomat nadawczy</span>';
           }
           ?>
+            <!-- <div id="title-sending">
+              <span class="button send-inactive">emotkomat nadawczy</span>
+            </div>
+            <div id="title-receiving">
+              <a href="index.php" class="button send">emotkomat nadawczy</a>
+              <span class="button">emotkomat odbiorczy</span>
+            </div> -->
           </div>
         </div>
         <div id="rectangle">
@@ -208,7 +201,7 @@ echo "Software used:";
                     C
                   </button>
                   <button class="digit black-button" value="0">0</button>
-                  <button class="black-button" id="equal" value="">
+                  <button class="black-button" id="backspace" value="">
                     &larr;
                   </button>
 
@@ -216,22 +209,14 @@ echo "Software used:";
                     if(isset($_GET["peb"])) {
                         echo 'submit-receive';
                     }
-                    ?>" id=
-                    <?php
-                      if(isset($_GET["peb"])) {
-                          echo '"enter-receive"';
-                      } else {
-                          echo "'enter'";
-                      }
-                      ?> 
-                    >
+                    ?>" id="enter">
                     <?php
                       if(isset($_GET["peb"])) {
                           echo 'odbierz';
                       } else {
                           echo 'nadaj';
                       }
-                      ?>  
+                      ?>
                   </button>
                 </div>
               </div>
