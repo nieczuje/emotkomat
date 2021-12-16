@@ -70,16 +70,6 @@ echo '<div class="intercom-emoji-picker-groups">
                           title="pile_of_poo"
                           >&#x1F4A9;</span
                         >
-                        <!-- <span
-                        class="intercom-emoji-picker-emoji"
-                        title="dollar_sign"
-                        >&#x24;</span
-                        >
-                        <span
-                          class="intercom-emoji-picker-emoji"
-                          title="bitcoin_sign"
-                          >&#x20BF;</span
-                        > -->
                         <span
                           class="intercom-emoji-picker-emoji"
                           title="face_with_rolling_eyes"
@@ -2138,11 +2128,6 @@ echo '<div class="intercom-emoji-picker-groups">
                           >&#x1F463;</span
                         >
                       </div>
-                      <!-- <div class="intercom-emoji-picker-group">
-                        <div class="intercom-emoji-picker-group-title">
-                          Component
-                        </div>
-                      </div> -->
                       <div class="intercom-emoji-picker-group">
                         <div class="intercom-emoji-picker-group-title">
                           Animals & Nature
