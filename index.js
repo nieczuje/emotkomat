@@ -137,7 +137,6 @@ $(document).ready(function(){
                     }
                     hex = hex.slice(0, -1);
                 }
-                // hex = String.fromCodePoint("0x"+hex);
 
                 if (validate()) {
                     pinString = pin.join("")
@@ -148,7 +147,6 @@ $(document).ready(function(){
                     let encryptedLink = encrypted.toString().replace(/\+/g,'p1L2u3S').replace(/\//g,'s1L2a3S4h').replace(/=/g,'e1Q2u3A4l');
 
                     encrypted = encryptedLink.toString().replace(/p1L2u3S/g, '+' ).replace(/s1L2a3S4h/g, '/').replace(/e1Q2u3A4l/g, '=');
-                    // let decrypted = CryptoJS.Rabbit.decrypt(encrypted, "jiemo");
 
                     closeDoors()
 

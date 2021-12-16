@@ -1,13 +1,7 @@
-<!-- <?php
-echo "Software used:";
-?> -->
-<!-- <?php include 'software.php';?> -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <!-- <head> -->
+  <head>
       <meta charset="UTF-8" />
-      <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <title>Emotkomat</title>
 
@@ -18,9 +12,7 @@ echo "Software used:";
 
       <link rel="stylesheet" href="style.css" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script> -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
-      <!-- <script src="//cdn.jsdelivr.net/npm/simple-crypto-js@2.5.0/dist/SimpleCrypto.min.js"></script> -->
 
       <script>
       let peb = "<?php echo htmlspecialchars($_GET["peb"] ?? null) ?>";
@@ -113,13 +105,6 @@ echo "Software used:";
               echo '<span class="button send-inactive">emotkomat nadawczy</span>';
           }
           ?>
-            <!-- <div id="title-sending">
-              <span class="button send-inactive">emotkomat nadawczy</span>
-            </div>
-            <div id="title-receiving">
-              <a href="index.php" class="button send">emotkomat nadawczy</a>
-              <span class="button">emotkomat odbiorczy</span>
-            </div> -->
           </div>
         </div>
         <div id="rectangle">
