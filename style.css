@@ -18,9 +18,6 @@ body {
 }
 
 #drawing {
-  background: url("data:image/svg+xml,%3Csvg%20width%3D%221920%22%20height%3D%221080%22%20viewBox%3D%220%200%201920%201080%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%221920%22%20height%3D%221080%22%20fill%3D%22white%22%2F%3E%0A%3Crect%20x%3D%2261%22%20y%3D%22881%22%20width%3D%221796%22%20height%3D%22126%22%20rx%3D%2230%22%20fill%3D%22%23D7E2E4%22%2F%3E%0A%3Cline%20x1%3D%2236%22%20y1%3D%22925.5%22%20x2%3D%221884%22%20y2%3D%22925.5%22%20stroke%3D%22black%22%2F%3E%0A%3Cg%20opacity%3D%220.4%22%20filter%3D%22url(%23filter0_i_19_2)%22%3E%0A%3Cpath%20d%3D%22M388%20397V71H230.318V191H143.644V435H61V921H1859V139L1744.11%2099V559H1675.57V217H1419.58V397H1324.84V159H1288.56V139H1213.98V159H1181.73V377H1143.43V39H1068.85L974.11%20377H925.733V217H633.457V365H599.191V139L520.578%20119V397H388Z%22%20fill%3D%22%23C8EDF5%22%2F%3E%0A%3C%2Fg%3E%0A%3Cpath%20d%3D%22M1722.9%20837C1799.76%20829.533%201844.32%20817.889%201857%20813V925H1526.76C1484.73%20901.444%201423.89%20853.8%201516.76%20851.667C1632.84%20849%201626.83%20846.333%201722.9%20837Z%22%20fill%3D%22%23A8C6CC%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M61%20925H320.735C323.063%20914.632%20385.445%20896.621%20444.4%20879.6C503.266%20862.605%20558.717%20846.596%20547.559%20840.165C542.212%20838.774%20535.172%20835.855%20526.714%20832.349C508.49%20824.792%20483.686%20814.508%20455.084%20810.912C432.805%20808.11%20444.522%20812.223%20458.178%20817.016C470.188%20821.232%20483.698%20825.975%20476.894%20827.001C475.092%20827.287%20472.847%20827.668%20470.186%20828.119C441.066%20833.056%20362.109%20846.442%20268.391%20836.509C168.56%20825.927%20112.499%20822.277%2061%20821.245V925Z%22%20fill%3D%22%23A8C6CC%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22%23626262%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22url(%23paint0_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22url(%23paint1_linear_19_2)%22%20fill-opacity%3D%220.08%22%2F%3E%0A%3Crect%20x%3D%22299.5%22%20y%3D%22405.5%22%20width%3D%221321%22%20height%3D%22505%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Cg%20filter%3D%22url(%23filter1_d_19_2)%22%3E%0A%3Crect%20x%3D%22305%22%20y%3D%22345%22%20width%3D%221310%22%20height%3D%2260%22%20fill%3D%22%23E33939%22%2F%3E%0A%3C%2Fg%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22%23E33939%22%2F%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22url(%23paint2_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22url(%23paint3_linear_19_2)%22%20fill-opacity%3D%220.12%22%2F%3E%0A%3Crect%20x%3D%22257.5%22%20y%3D%22316.5%22%20width%3D%221405%22%20height%3D%2290%22%20rx%3D%2218.5%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22%23E33939%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22url(%23paint4_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22url(%23paint5_linear_19_2)%22%20fill-opacity%3D%220.12%22%2F%3E%0A%3Crect%20x%3D%22287.5%22%20y%3D%22904.5%22%20width%3D%221344%22%20height%3D%2221%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Cdefs%3E%0A%3Cfilter%20id%3D%22filter0_i_19_2%22%20x%3D%2261%22%20y%3D%2239%22%20width%3D%221798%22%20height%3D%22977%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22shape%22%2F%3E%0A%3CfeColorMatrix%20in%3D%22SourceAlpha%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20127%200%22%20result%3D%22hardAlpha%22%2F%3E%0A%3CfeOffset%20dy%3D%2295%22%2F%3E%0A%3CfeGaussianBlur%20stdDeviation%3D%22125%22%2F%3E%0A%3CfeComposite%20in2%3D%22hardAlpha%22%20operator%3D%22arithmetic%22%20k2%3D%22-1%22%20k3%3D%221%22%2F%3E%0A%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.25%200%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in2%3D%22shape%22%20result%3D%22effect1_innerShadow_19_2%22%2F%3E%0A%3C%2Ffilter%3E%0A%3Cfilter%20id%3D%22filter1_d_19_2%22%20x%3D%22292%22%20y%3D%22334%22%20width%3D%221336%22%20height%3D%2286%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%0A%3CfeColorMatrix%20in%3D%22SourceAlpha%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20127%200%22%20result%3D%22hardAlpha%22%2F%3E%0A%3CfeMorphology%20radius%3D%226%22%20operator%3D%22dilate%22%20in%3D%22SourceAlpha%22%20result%3D%22effect1_dropShadow_19_2%22%2F%3E%0A%3CfeOffset%20dy%3D%222%22%2F%3E%0A%3CfeGaussianBlur%20stdDeviation%3D%223.5%22%2F%3E%0A%3CfeComposite%20in2%3D%22hardAlpha%22%20operator%3D%22out%22%2F%3E%0A%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.25%200%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22effect1_dropShadow_19_2%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22effect1_dropShadow_19_2%22%20result%3D%22shape%22%2F%3E%0A%3C%2Ffilter%3E%0A%3ClinearGradient%20id%3D%22paint0_linear_19_2%22%20x1%3D%22960%22%20y1%3D%22406%22%20x2%3D%22960%22%20y2%3D%22910%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0944123%22%20stop-opacity%3D%220%22%2F%3E%0A%3Cstop%20offset%3D%220.861272%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint1_linear_19_2%22%20x1%3D%22261%22%20y1%3D%22658.486%22%20x2%3D%221641%22%20y2%3D%22658.486%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint2_linear_19_2%22%20x1%3D%22960%22%20y1%3D%22216%22%20x2%3D%22960%22%20y2%3D%22427%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%2F%3E%0A%3Cstop%20offset%3D%220.982609%22%20stop-opacity%3D%220%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint3_linear_19_2%22%20x1%3D%22216.518%22%20y1%3D%22361.586%22%20x2%3D%221684.34%22%20y2%3D%22361.586%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint4_linear_19_2%22%20x1%3D%22912%22%20y1%3D%22966%22%20x2%3D%22914%22%20y2%3D%22892%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-opacity%3D%220%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint5_linear_19_2%22%20x1%3D%22248.32%22%20y1%3D%22915.019%22%20x2%3D%221652.37%22%20y2%3D%22915.02%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3C%2Fdefs%3E%0A%3C%2Fsvg%3E%0A");
-  /* background-image: url(/Frame1.svg); */
-  /* background-image: url(/emotkomat/Frame1.svg); */
   background-repeat: no-repeat;
   background-size: 104rem auto;
 
@@ -35,22 +32,12 @@ body {
   padding-top: 8.6rem;
 }
 
-#drawing-receive {
+.drawing-bg {
+  background: url("data:image/svg+xml,%3Csvg%20width%3D%221920%22%20height%3D%221080%22%20viewBox%3D%220%200%201920%201080%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%221920%22%20height%3D%221080%22%20fill%3D%22white%22%2F%3E%0A%3Crect%20x%3D%2261%22%20y%3D%22881%22%20width%3D%221796%22%20height%3D%22126%22%20rx%3D%2230%22%20fill%3D%22%23D7E2E4%22%2F%3E%0A%3Cline%20x1%3D%2236%22%20y1%3D%22925.5%22%20x2%3D%221884%22%20y2%3D%22925.5%22%20stroke%3D%22black%22%2F%3E%0A%3Cg%20opacity%3D%220.4%22%20filter%3D%22url(%23filter0_i_19_2)%22%3E%0A%3Cpath%20d%3D%22M388%20397V71H230.318V191H143.644V435H61V921H1859V139L1744.11%2099V559H1675.57V217H1419.58V397H1324.84V159H1288.56V139H1213.98V159H1181.73V377H1143.43V39H1068.85L974.11%20377H925.733V217H633.457V365H599.191V139L520.578%20119V397H388Z%22%20fill%3D%22%23C8EDF5%22%2F%3E%0A%3C%2Fg%3E%0A%3Cpath%20d%3D%22M1722.9%20837C1799.76%20829.533%201844.32%20817.889%201857%20813V925H1526.76C1484.73%20901.444%201423.89%20853.8%201516.76%20851.667C1632.84%20849%201626.83%20846.333%201722.9%20837Z%22%20fill%3D%22%23A8C6CC%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M61%20925H320.735C323.063%20914.632%20385.445%20896.621%20444.4%20879.6C503.266%20862.605%20558.717%20846.596%20547.559%20840.165C542.212%20838.774%20535.172%20835.855%20526.714%20832.349C508.49%20824.792%20483.686%20814.508%20455.084%20810.912C432.805%20808.11%20444.522%20812.223%20458.178%20817.016C470.188%20821.232%20483.698%20825.975%20476.894%20827.001C475.092%20827.287%20472.847%20827.668%20470.186%20828.119C441.066%20833.056%20362.109%20846.442%20268.391%20836.509C168.56%20825.927%20112.499%20822.277%2061%20821.245V925Z%22%20fill%3D%22%23A8C6CC%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22%23626262%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22url(%23paint0_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22url(%23paint1_linear_19_2)%22%20fill-opacity%3D%220.08%22%2F%3E%0A%3Crect%20x%3D%22299.5%22%20y%3D%22405.5%22%20width%3D%221321%22%20height%3D%22505%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Cg%20filter%3D%22url(%23filter1_d_19_2)%22%3E%0A%3Crect%20x%3D%22305%22%20y%3D%22345%22%20width%3D%221310%22%20height%3D%2260%22%20fill%3D%22%23E33939%22%2F%3E%0A%3C%2Fg%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22%23E33939%22%2F%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22url(%23paint2_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22url(%23paint3_linear_19_2)%22%20fill-opacity%3D%220.12%22%2F%3E%0A%3Crect%20x%3D%22257.5%22%20y%3D%22316.5%22%20width%3D%221405%22%20height%3D%2290%22%20rx%3D%2218.5%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22%23E33939%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22url(%23paint4_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22url(%23paint5_linear_19_2)%22%20fill-opacity%3D%220.12%22%2F%3E%0A%3Crect%20x%3D%22287.5%22%20y%3D%22904.5%22%20width%3D%221344%22%20height%3D%2221%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Cdefs%3E%0A%3Cfilter%20id%3D%22filter0_i_19_2%22%20x%3D%2261%22%20y%3D%2239%22%20width%3D%221798%22%20height%3D%22977%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22shape%22%2F%3E%0A%3CfeColorMatrix%20in%3D%22SourceAlpha%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20127%200%22%20result%3D%22hardAlpha%22%2F%3E%0A%3CfeOffset%20dy%3D%2295%22%2F%3E%0A%3CfeGaussianBlur%20stdDeviation%3D%22125%22%2F%3E%0A%3CfeComposite%20in2%3D%22hardAlpha%22%20operator%3D%22arithmetic%22%20k2%3D%22-1%22%20k3%3D%221%22%2F%3E%0A%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.25%200%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in2%3D%22shape%22%20result%3D%22effect1_innerShadow_19_2%22%2F%3E%0A%3C%2Ffilter%3E%0A%3Cfilter%20id%3D%22filter1_d_19_2%22%20x%3D%22292%22%20y%3D%22334%22%20width%3D%221336%22%20height%3D%2286%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%0A%3CfeColorMatrix%20in%3D%22SourceAlpha%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20127%200%22%20result%3D%22hardAlpha%22%2F%3E%0A%3CfeMorphology%20radius%3D%226%22%20operator%3D%22dilate%22%20in%3D%22SourceAlpha%22%20result%3D%22effect1_dropShadow_19_2%22%2F%3E%0A%3CfeOffset%20dy%3D%222%22%2F%3E%0A%3CfeGaussianBlur%20stdDeviation%3D%223.5%22%2F%3E%0A%3CfeComposite%20in2%3D%22hardAlpha%22%20operator%3D%22out%22%2F%3E%0A%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.25%200%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22effect1_dropShadow_19_2%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22effect1_dropShadow_19_2%22%20result%3D%22shape%22%2F%3E%0A%3C%2Ffilter%3E%0A%3ClinearGradient%20id%3D%22paint0_linear_19_2%22%20x1%3D%22960%22%20y1%3D%22406%22%20x2%3D%22960%22%20y2%3D%22910%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0944123%22%20stop-opacity%3D%220%22%2F%3E%0A%3Cstop%20offset%3D%220.861272%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint1_linear_19_2%22%20x1%3D%22261%22%20y1%3D%22658.486%22%20x2%3D%221641%22%20y2%3D%22658.486%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint2_linear_19_2%22%20x1%3D%22960%22%20y1%3D%22216%22%20x2%3D%22960%22%20y2%3D%22427%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%2F%3E%0A%3Cstop%20offset%3D%220.982609%22%20stop-opacity%3D%220%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint3_linear_19_2%22%20x1%3D%22216.518%22%20y1%3D%22361.586%22%20x2%3D%221684.34%22%20y2%3D%22361.586%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint4_linear_19_2%22%20x1%3D%22912%22%20y1%3D%22966%22%20x2%3D%22914%22%20y2%3D%22892%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-opacity%3D%220%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint5_linear_19_2%22%20x1%3D%22248.32%22%20y1%3D%22915.019%22%20x2%3D%221652.37%22%20y2%3D%22915.02%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3C%2Fdefs%3E%0A%3C%2Fsvg%3E%0A");
+}
+
+.drawing-bg-receive {
   background: url("data:image/svg+xml,%3Csvg%20width%3D%221920%22%20height%3D%221080%22%20viewBox%3D%220%200%201920%201080%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%221920%22%20height%3D%221080%22%20fill%3D%22white%22%2F%3E%0A%3Crect%20x%3D%2261%22%20y%3D%22881%22%20width%3D%221796%22%20height%3D%22126%22%20rx%3D%2230%22%20fill%3D%22%23D7E2E4%22%2F%3E%0A%3Cline%20x1%3D%2236%22%20y1%3D%22925.5%22%20x2%3D%221884%22%20y2%3D%22925.5%22%20stroke%3D%22black%22%2F%3E%0A%3Cg%20opacity%3D%220.4%22%20filter%3D%22url(%23filter0_i_19_2)%22%3E%0A%3Cpath%20d%3D%22M388%20397V71H230.318V191H143.644V435H61V921H1859V139L1744.11%2099V559H1675.57V217H1419.58V397H1324.84V159H1288.56V139H1213.98V159H1181.73V377H1143.43V39H1068.85L974.11%20377H925.733V217H633.457V365H599.191V139L520.578%20119V397H388Z%22%20fill%3D%22%23C8EDF5%22%2F%3E%0A%3C%2Fg%3E%0A%3Cpath%20d%3D%22M1722.9%20837C1799.76%20829.533%201844.32%20817.889%201857%20813V925H1526.76C1484.73%20901.444%201423.89%20853.8%201516.76%20851.667C1632.84%20849%201626.83%20846.333%201722.9%20837Z%22%20fill%3D%22%23A8C6CC%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M61%20925H320.735C323.063%20914.632%20385.445%20896.621%20444.4%20879.6C503.266%20862.605%20558.717%20846.596%20547.559%20840.165C542.212%20838.774%20535.172%20835.855%20526.714%20832.349C508.49%20824.792%20483.686%20814.508%20455.084%20810.912C432.805%20808.11%20444.522%20812.223%20458.178%20817.016C470.188%20821.232%20483.698%20825.975%20476.894%20827.001C475.092%20827.287%20472.847%20827.668%20470.186%20828.119C441.066%20833.056%20362.109%20846.442%20268.391%20836.509C168.56%20825.927%20112.499%20822.277%2061%20821.245V925Z%22%20fill%3D%22%23A8C6CC%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22%23626262%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22url(%23paint0_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22300%22%20y%3D%22406%22%20width%3D%221320%22%20height%3D%22504%22%20fill%3D%22url(%23paint1_linear_19_2)%22%20fill-opacity%3D%220.08%22%2F%3E%0A%3Crect%20x%3D%22299.5%22%20y%3D%22405.5%22%20width%3D%221321%22%20height%3D%22505%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Cg%20filter%3D%22url(%23filter1_d_19_2)%22%3E%0A%3Crect%20x%3D%22305%22%20y%3D%22345%22%20width%3D%221310%22%20height%3D%2260%22%20fill%3D%22%231e6896%22%2F%3E%0A%3C%2Fg%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22%231e6896%22%2F%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22url(%23paint2_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22258%22%20y%3D%22317%22%20width%3D%221404%22%20height%3D%2289%22%20rx%3D%2218%22%20fill%3D%22url(%23paint3_linear_19_2)%22%20fill-opacity%3D%220.12%22%2F%3E%0A%3Crect%20x%3D%22257.5%22%20y%3D%22316.5%22%20width%3D%221405%22%20height%3D%2290%22%20rx%3D%2218.5%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22%231e6896%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22url(%23paint4_linear_19_2)%22%20fill-opacity%3D%220.3%22%2F%3E%0A%3Crect%20x%3D%22288%22%20y%3D%22905%22%20width%3D%221343%22%20height%3D%2220%22%20fill%3D%22url(%23paint5_linear_19_2)%22%20fill-opacity%3D%220.12%22%2F%3E%0A%3Crect%20x%3D%22287.5%22%20y%3D%22904.5%22%20width%3D%221344%22%20height%3D%2221%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.2%22%2F%3E%0A%3Cdefs%3E%0A%3Cfilter%20id%3D%22filter0_i_19_2%22%20x%3D%2261%22%20y%3D%2239%22%20width%3D%221798%22%20height%3D%22977%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22shape%22%2F%3E%0A%3CfeColorMatrix%20in%3D%22SourceAlpha%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20127%200%22%20result%3D%22hardAlpha%22%2F%3E%0A%3CfeOffset%20dy%3D%2295%22%2F%3E%0A%3CfeGaussianBlur%20stdDeviation%3D%22125%22%2F%3E%0A%3CfeComposite%20in2%3D%22hardAlpha%22%20operator%3D%22arithmetic%22%20k2%3D%22-1%22%20k3%3D%221%22%2F%3E%0A%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.25%200%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in2%3D%22shape%22%20result%3D%22effect1_innerShadow_19_2%22%2F%3E%0A%3C%2Ffilter%3E%0A%3Cfilter%20id%3D%22filter1_d_19_2%22%20x%3D%22292%22%20y%3D%22334%22%20width%3D%221336%22%20height%3D%2286%22%20filterUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22sRGB%22%3E%0A%3CfeFlood%20flood-opacity%3D%220%22%20result%3D%22BackgroundImageFix%22%2F%3E%0A%3CfeColorMatrix%20in%3D%22SourceAlpha%22%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20127%200%22%20result%3D%22hardAlpha%22%2F%3E%0A%3CfeMorphology%20radius%3D%226%22%20operator%3D%22dilate%22%20in%3D%22SourceAlpha%22%20result%3D%22effect1_dropShadow_19_2%22%2F%3E%0A%3CfeOffset%20dy%3D%222%22%2F%3E%0A%3CfeGaussianBlur%20stdDeviation%3D%223.5%22%2F%3E%0A%3CfeComposite%20in2%3D%22hardAlpha%22%20operator%3D%22out%22%2F%3E%0A%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.25%200%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in2%3D%22BackgroundImageFix%22%20result%3D%22effect1_dropShadow_19_2%22%2F%3E%0A%3CfeBlend%20mode%3D%22normal%22%20in%3D%22SourceGraphic%22%20in2%3D%22effect1_dropShadow_19_2%22%20result%3D%22shape%22%2F%3E%0A%3C%2Ffilter%3E%0A%3ClinearGradient%20id%3D%22paint0_linear_19_2%22%20x1%3D%22960%22%20y1%3D%22406%22%20x2%3D%22960%22%20y2%3D%22910%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0944123%22%20stop-opacity%3D%220%22%2F%3E%0A%3Cstop%20offset%3D%220.861272%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint1_linear_19_2%22%20x1%3D%22261%22%20y1%3D%22658.486%22%20x2%3D%221641%22%20y2%3D%22658.486%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint2_linear_19_2%22%20x1%3D%22960%22%20y1%3D%22216%22%20x2%3D%22960%22%20y2%3D%22427%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%2F%3E%0A%3Cstop%20offset%3D%220.982609%22%20stop-opacity%3D%220%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint3_linear_19_2%22%20x1%3D%22216.518%22%20y1%3D%22361.586%22%20x2%3D%221684.34%22%20y2%3D%22361.586%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint4_linear_19_2%22%20x1%3D%22912%22%20y1%3D%22966%22%20x2%3D%22914%22%20y2%3D%22892%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-opacity%3D%220%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3ClinearGradient%20id%3D%22paint5_linear_19_2%22%20x1%3D%22248.32%22%20y1%3D%22915.019%22%20x2%3D%221652.37%22%20y2%3D%22915.02%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%3Cstop%20offset%3D%220.0188406%22%20stop-color%3D%22%23C256B8%22%2F%3E%0A%3Cstop%20offset%3D%220.333333%22%20stop-color%3D%22%23388D9F%22%2F%3E%0A%3Cstop%20offset%3D%220.798551%22%20stop-color%3D%22%23AE2EA1%22%2F%3E%0A%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23BE1414%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3C%2Fdefs%3E%0A%3C%2Fsvg%3E%0A");
-  /* background-image: url(/Frame2.svg); */
-  /* background-image: url(/emotkomat/Frame2.svg); */
-  background-repeat: no-repeat;
-  background-size: 104rem auto;
-
-  height: 46rem;
-  max-width: 1860px;
-  background-position: center;
-  margin: 0 auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 8.6rem;
 }
 
 #buttons {
@@ -113,6 +100,10 @@ body {
   display: none;
 }
 
+#title-receiving {
+  display: none;
+}
+
 /* RECTANGLE */
 
 .opening {
@@ -166,7 +157,7 @@ body {
   color: rgba(255, 99, 71, 0);
 }
 
-/* CALC */
+/* KEYBOARD */
 
 .screen {
   width: 14rem;
@@ -690,17 +681,13 @@ button:active {
   font-size: 0.7rem;
 }
 
-#modal-copy {
+.modal-copy {
   border: 3px dotted var(--my-red);
   padding: 1.4rem;
   margin: 2rem;
 }
 
-#export-copy {
-  overflow-wrap: break-word;
-}
-
-#export-copy2 {
+.export-link {
   overflow-wrap: break-word;
 }
 
@@ -708,7 +695,7 @@ button:active {
   position: relative;
 }
 
-.btn-copy {
+.btns-copy {
   background-color: white;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: 100;
@@ -728,43 +715,11 @@ button:active {
   cursor: pointer;
 }
 
-.btn-copy:active {
+.btns-copy:active {
   background-color: var(--my-red);
 }
 
-#btn-copied {
-  visibility: hidden;
-  color: var(--dark-gray);
-  text-align: center;
-  font-size: 0.8rem;
-  position: relative;
-}
-
-.btn-copy2 {
-  background-color: white;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: 100;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  color: var(--dark-gray);
-  padding: 0.3rem 0.7rem;
-  border: 2px solid var(--dark-gray);
-  border-radius: 10px;
-  outline: none;
-  margin-top: 0.1rem;
-  margin-bottom: 0.2rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 1.2rem;
-  cursor: pointer;
-}
-
-.btn-copy2:active {
-  background-color: var(--my-red);
-}
-
-#btn-copied2 {
+.btns-copied {
   visibility: hidden;
   color: var(--dark-gray);
   text-align: center;
@@ -893,8 +848,5 @@ footer a:hover {
   #drawing {
     width: 71rem;
     background-attachment: scroll;
-  }
-  #drawing-receive {
-    width: 71rem;
   }
 }
