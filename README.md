@@ -23,7 +23,7 @@ An emoji vending machine. Pick a locker, set a PIN, and send an emoji — share 
 |---|---|
 | [![Emotkomat nadawczy](screenshots/2.png)](screenshots/2.png) | [![Emotkomat odbiorczy](screenshots/4.png)](screenshots/4.png) |
 
-*(full walkthrough video to be added)*
+[![Watch the full walkthrough](https://img.youtube.com/vi/1KLDA0Ikamk/0.jpg)](https://youtu.be/1KLDA0Ikamk)
 
 ## Credits
 
