@@ -19,7 +19,11 @@ An emoji vending machine. Pick a locker, set a PIN, and send an emoji — share 
 
 ## Demo
 
-*(screenshot and video to be added)*
+| Sending (nadawczy) | Receiving (odbiorczy) |
+|---|---|
+| ![Emotkomat nadawczy](screenshots/2.png) | ![Emotkomat odbiorczy](screenshots/4.png) |
+
+*(full walkthrough video to be added)*
 
 ## Credits
 
