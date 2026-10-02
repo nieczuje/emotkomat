@@ -8,8 +8,9 @@ An emoji vending machine. Pick a locker, set a PIN, and send an emoji — share 
 
 ## How it works
 
-- Pick a numbered locker ("skrytka") and set a 4-digit PIN
+- Pick a numbered locker ("skrytka")
 - Choose an emoji from the picker
+- Set a 4-digit PIN
 - Get a shareable link + PIN — opening the link and entering the PIN unlocks the matching locker and reveals the emoji
 
 ## Structure
