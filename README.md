@@ -26,7 +26,7 @@ An emoji vending machine. Pick a locker, set a PIN, and send an emoji — share 
 
 | [![YouTube](https://img.shields.io/badge/YouTube-Watch_full_walkthrough-red?logo=youtube)](https://youtu.be/1KLDA0Ikamk) |
 |---|
-| [<img src="https://img.youtube.com/vi/1KLDA0Ikamk/0.jpg" width="400">](https://youtu.be/1KLDA0Ikamk) |
+| [<img src="https://img.youtube.com/vi/1KLDA0Ikamk/maxresdefault.jpg" width="500">](https://youtu.be/1KLDA0Ikamk) |
 
 ## Credits
 
