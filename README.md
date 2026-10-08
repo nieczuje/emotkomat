@@ -2,6 +2,8 @@
 
 ![Handwritten](https://img.shields.io/badge/provenance-handwritten-brightgreen)
 
+*2021: original git history*
+
 An emoji vending machine. Pick a locker, set a PIN, and send an emoji — share the link and PIN so a friend can open the matching locker and collect it.
 
 > Emotkomat was live at `emotkomat.pl` in 2021. The domain and hosting have since been let go; this repo preserves the project.
