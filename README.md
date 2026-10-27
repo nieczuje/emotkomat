@@ -24,7 +24,7 @@ An emoji vending machine. Pick a locker, set a PIN, and send an emoji — share 
 
 | Sending (nadawczy) | Receiving (odbiorczy) |
 |---|---|
-| [<img src="screenshots/2.png" width="400">](screenshots/2.png) | [<img src="screenshots/4.png" width="400">](screenshots/4.png) |
+| [<img src="screenshots/sending-view.png" width="400">](screenshots/sending-view.png) | [<img src="screenshots/receiving-view.png" width="400">](screenshots/receiving-view.png) |
 
 | [![YouTube](https://img.shields.io/badge/YouTube-Watch_full_walkthrough-red?logo=youtube)](https://youtu.be/1KLDA0Ikamk) |
 |---|
