@@ -10,15 +10,11 @@ An emoji vending machine. Pick a locker, set a PIN, and send an emoji — share 
 
 ## How it works
 
-- Pick a numbered locker ("skrytka")
-- Choose an emoji from the picker
-- Set a 4-digit PIN
-- Get a shareable link + PIN — opening the link and entering the PIN unlocks the matching locker and reveals the emoji
-
-## Structure
-
-- Root (`index.php`, `index.js`, `style.css`, `emojis.php`) — the final, deployed version of the app
-- `legacy/` — the original vanilla JS/HTML prototype this grew from (Oct–Dec 2021), kept for history. See `legacy/emotkomat.php` for an even earlier, pre-jQuery first attempt.
+1. Pick a numbered locker ("skrytka")
+2. Choose an emoji from the picker
+3. Set a 4-digit PIN and press "NADAJ"
+4. Copy the message with the link and PIN and send it to a friend
+5. The friend opens the link, enters the PIN and presses "ODBIERZ" — the matching locker opens and reveals the emoji
 
 ## Demo
 
@@ -30,7 +26,39 @@ An emoji vending machine. Pick a locker, set a PIN, and send an emoji — share 
 |---|
 | [<img src="https://img.youtube.com/vi/1KLDA0Ikamk/maxresdefault.jpg" width="500">](https://youtu.be/1KLDA0Ikamk) |
 
+## Structure
+
+```
+index.php          Final, deployed app page
+index.js           App logic
+style.css          Styles
+emojis.php         Emoji data
+software.php       MIT license text for the CodePen emoji picker code
+favicon_io/        The app's own icon
+screenshots/       Images for the Demo section
+legacy/            Original vanilla JS/HTML prototype (Oct–Dec 2021), kept for history
+    emotkomat.php  Earlier, pre-jQuery first attempt
+```
+
+## Usage
+
+```bash
+php -S localhost:8000
+```
+
+Open `http://localhost:8000/index.php`. Requires PHP 7.0 or newer and an internet connection (jQuery and CryptoJS load from CDNs). No database or data files are needed.
+
+The generated link always starts with `https://www.emotkomat.pl/`. To open it locally, replace that part with `http://localhost:8000/`. The HTTPS redirect in `.htaccess` only works on Apache; PHP's built-in server ignores it.
+
+## Tech
+
+PHP, JavaScript with jQuery 3.5.1, CSS (grid and SVG backgrounds). The message is encrypted in the browser with CryptoJS (Rabbit cipher) and carried in the link, so there is no database and no server-side state. PHP only switches between sender and receiver mode and includes the emoji picker. jQuery and CryptoJS are loaded from CDNs.
+
 ## Credits
 
 - Emoji picker UI adapted from [a CodePen by Tu Truong](https://codepen.io/lufutu/pen/gWygjW), MIT licensed. License text included in `software.php`.
 - Favicon generated from [Twemoji](https://github.com/twitter/twemoji) (`1f60a.svg`), © Twitter, Inc. and contributors, CC-BY 4.0.
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
