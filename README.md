@@ -47,13 +47,14 @@ legacy/            Original prototype (Oct–Dec 2021), kept for history
 
 ## Install
 
-1. Install PHP from [php.net](https://www.php.net/downloads) and check it with `php -v`.
-2. Clone the repo and go into it:
+1. Clone the repo and go into it:
 
    ```bash
    git clone https://github.com/nieczuje/emotkomat.git
    cd emotkomat
    ```
+
+2. Install PHP from [php.net](https://www.php.net/downloads) and check it with `php -v`.
 
 ## Usage
 
